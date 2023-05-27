@@ -7,7 +7,7 @@ theo thứ tự tăng dần.
 void sortVector(vector<int> &vec) {
 	vector<int>::iterator it,it2;
 	for (it = vec.begin(); it != vec.end(); it++) {
-		for (it2 = it + 1; it2 != vec.end(); it2++) {
+		for (it2 = it ; it2 != vec.end(); it2++) {
 			if (*it > *it2) {
 				int store = *it;
 				*it = *it2;
