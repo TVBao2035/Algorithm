@@ -26,7 +26,7 @@ int main()
 		cout << "Please Enter A Line Code: ";
 		fflush(stdin);
 		getline(cin,words);
-		checkSpace = !(words.find(' ') >= words.size());
+		checkSpace = words.find(' ') != -1;
 		if (checkSpace) {
 			cout << "Code doesn't contain spaces. Please Enter Again!" << endl;
 		}
