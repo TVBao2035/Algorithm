@@ -4,7 +4,9 @@
 #include <string>
 using namespace std;
 /*
-An có một danh sách các sản phẩm trong siêu thị nhưng thật không may trong danh sách lại có những sản phẩm xuất hiện nhiều lần. Bạn hãy giúp An làm lại danh sách sao cho một sản phẩm chỉ xuất hiện một lần trong danh sách và các sản phẩm xuất hiện theo thứ tăng dần trong từ điển.
+An có một danh sách các sản phẩm trong siêu thị nhưng thật không may trong danh sách lại có những sản phẩm xuất hiện nhiều lần. 
+Bạn hãy giúp An làm lại danh sách sao cho một sản phẩm chỉ xuất hiện một lần trong danh sách 
+và các sản phẩm xuất hiện theo thứ tăng dần trong từ điển.
 
 Ví dụ:
 
